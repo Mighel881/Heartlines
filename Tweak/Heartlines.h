@@ -71,6 +71,9 @@ BOOL invisibleInkEffectSwitch = YES;
 - (void)setContentColor:(UIColor *)arg1;
 @end
 
+@interface UIMorphingLabel : UIView
+@end
+
 @interface SBFLockScreenDateView : UIView
 - (void)updateHeartlinesUpNext:(NSNotification *)notification;
 @end

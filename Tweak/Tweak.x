@@ -65,6 +65,16 @@ SBUIProudLockIconView* faceIDLock;
 
 %end
 
+%hook UIMorphingLabel
+
+- (id)initWithFrame:(CGRect)frame {
+
+    return nil;
+
+}
+
+%end
+
 %hook SBFLockScreenDateViewController
 
 - (void)setContentAlpha:(double)arg1 withSubtitleVisible:(BOOL)arg2 { // hide original time and date
